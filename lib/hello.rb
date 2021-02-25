@@ -26,3 +26,5 @@ end
 
 #using ternary instead of the if statement
 hello_t(["Tim", "Tom", "Jim"]) {|name, greet| name.start_with?('T') ? (puts "#{greet}, #{name}") : nil}
+
+#testing
